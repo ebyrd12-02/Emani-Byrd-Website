@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Contact page.css">
+  <link rel="stylesheet" href="./bootstrap-layout.css">
+  <title>BUDT748 | Contact</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
+ <div class="container">
+  <a class="navbar-brand" href="Index.html">BUDT 748</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="Index.html">Homepage</a></li>
+<li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="Contact.html">Contact</a></li></ul></div>
+ </div>
+</nav>
+  <div class="contact-page">
+    <div class="frame-24">
+      <div class="landing-page">
+
+        <div class="contact-us">Contact Us</div>
+        <div class="row g-4"><div class="col-md-6"><div class="professor-contact">Professor Contact:</div>
+        <div class="paul-t-shapiro-pshapiro-umd-edu">
+          Paul T Shapiro-<a href="mailto:pshapiro@umd.edu">pshapiro@umd.edu</a>
+        </div>
+        <div class="ta-contact">TA Contact:</div><div class="archie-tiwari-artiwari-umd-edu">
+          Archie Tiwari-<a href="mailto:artiwari@umd.edu">artiwari@umd.edu</a>
+          <br />
+        </div>
+        <div class="reach-out-to-the-course-team-for-support-or-inquiries">
+          Reach out to the course team for support or inquiries.
+        </div>
+</div><div class="col-md-6">
+ <form id="contact-form" class="text-start bg-light text-dark p-4 rounded">
+  <h2 class="h4">Contact the course team</h2>
+  <p id="form-help">Practice form only. To contact the team, use the email links.</p>
+  <div class="mb-3"><label for="email" class="form-label">Email</label><input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" autocomplete="email" aria-describedby="form-help" required></div>
+  <button type="submit" class="btn btn-success">Submit</button>
+  <p id="form-status" class="mt-3 mb-0" role="status"></p>
+ </form>
+ </div></div>
+      </div>
+    </div>
+  </div>
+  
+<script>
+ document.getElementById('contact-form').addEventListener('submit', function (event) {
+  event.preventDefault();
+  document.getElementById('form-status').textContent = 'Your email format is valid. This practice form does not send or save your email.';
+ });
+ </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

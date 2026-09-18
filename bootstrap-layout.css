@@ -1,0 +1,16 @@
+/* Let the exported Figma content flow within Bootstrap's responsive layout. */
+body { margin: 0; font-family: Montserrat, sans-serif; }
+.about-page, .contact-page, body > .landing-page { height: auto; min-height: calc(100vh - 56px); overflow: visible; }
+.frame-23, .frame-24 { position: static; width: 100%; height: auto; padding: 0; overflow: visible; }
+.frame-23 > .landing-page, .frame-23 > .landing-page2, .frame-24 > .landing-page {
+ position: static; width: 100%; height: auto; min-height: calc(100vh - 56px); padding: clamp(2rem, 6vw, 5rem) max(1rem, calc((100% - 1140px) / 2)); overflow: visible; text-align: center;
+}
+.frame-23 > .landing-page > div, .landing-page2 > div, .frame-24 > .landing-page > div,
+.col-md-6 > div {
+ position: static; width: auto; height: auto; margin-bottom: 1.5rem;
+}
+.budt-748-industry-practicum, .let-s-create-a-website-design, .contact-us { font-size: clamp(2rem, 5vw, 3.75rem); }
+[class^="budt-748-is-"], [class^="today-let-s-"] { font-size: clamp(1.15rem, 2.5vw, 1.875rem); line-height: 1.6; }
+.col-md-6 > div { text-align: left; overflow-wrap: anywhere; }
+.contact-page a:not(.btn) { color: inherit; text-decoration: underline; }
+.navbar-brand { font-weight: 700; }

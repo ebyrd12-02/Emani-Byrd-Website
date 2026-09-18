@@ -1,0 +1,139 @@
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
+.landing-page {
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-23 {
+  padding: 0px 0px 0px 80px;
+  width: 1555px;
+  height: 1079px;
+  position: absolute;
+  left: -52px;
+  top: 18px;
+  overflow: hidden;
+}
+.landing-page2 {
+  background: linear-gradient(
+      to left,
+      rgba(246, 2, 152, 0.65),
+      rgba(246, 2, 152, 0.65)
+    ),
+    linear-gradient(to left, rgba(255, 56, 60, 0.14), rgba(255, 56, 60, 0.14));
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 69px 287px 916px 29px;
+  width: 1408px;
+  height: 1024px;
+  position: absolute;
+  left: 80px;
+  top: calc(50% - 539.5px);
+  overflow: hidden;
+}
+.budt-748 {
+  color: var(--m3-white, #ffffff);
+  text-align: left;
+  font-family: "IosevkaCharon-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 60px;
+  width: 327px;
+  height: 54px;
+}
+.frame-27 {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 125px;
+  height: 54px;
+  position: absolute;
+  left: 953px;
+  top: 70px;
+}
+.homepage {
+  color: var(--backgrounds-primary, #ffffff);
+  text-align: right;
+  font-family: "IosevkaCharon-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 88px;
+  height: 39px;
+}
+.about {
+  color: var(--grays-white, #ffffff);
+  text-align: center;
+  font-family: "IosevkaCharon-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1105px;
+  top: 70px;
+  width: 63px;
+  height: 17px;
+}
+.contact {
+  color: var(--m3-white, #ffffff);
+  text-align: center;
+  font-family: "IosevkaCharon-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1112px;
+  top: 70px;
+  width: 318px;
+}
+.let-s-create-a-website-design {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 384px;
+  top: 333px;
+  width: 613px;
+  height: 108px;
+}
+.today-let-s-create-a-sample-website-design-in-figma-and-export-its-corresponding-html-and-css-code {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 285px;
+  top: 512px;
+  width: 859px;
+  height: 70px;
+}
+.rectangle-1 {
+  background: #a8ff35;
+  border-radius: 10px;
+  width: 245px;
+  height: 50px;
+  position: absolute;
+  left: 567px;
+  top: 622px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.6);
+}
+.get-started {
+  color: var(--m3-black, #000000);
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 602px;
+  top: 634px;
+  width: 177px;
+  height: 38px;
+}

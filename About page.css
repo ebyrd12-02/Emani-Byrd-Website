@@ -1,0 +1,157 @@
+.about-page,
+.about-page * {
+  box-sizing: border-box;
+}
+.about-page {
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-23 {
+  padding: 0px 0px 0px 80px;
+  width: 1555px;
+  height: 1079px;
+  position: absolute;
+  left: -52px;
+  top: 18px;
+  overflow: hidden;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.landing-page {
+  background: linear-gradient(
+      to left,
+      rgba(246, 2, 152, 0.65),
+      rgba(246, 2, 152, 0.65)
+    ),
+    linear-gradient(to left, rgba(255, 56, 60, 0.14), rgba(255, 56, 60, 0.14));
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 69px 287px 916px 29px;
+  width: 1408px;
+  height: 1024px;
+  position: absolute;
+  left: 80px;
+  top: calc(50% - 539.5px);
+  overflow: hidden;
+}
+.budt-748 {
+  color: var(--m3-white, #ffffff);
+  text-align: left;
+  font-family: "IosevkaCharon-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 157px;
+  top: 60px;
+  width: 327px;
+  height: 54px;
+}
+.frame-27 {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 125px;
+  height: 54px;
+  position: absolute;
+  left: 953px;
+  top: 70px;
+}
+.homepage {
+  color: var(--backgrounds-primary, #ffffff);
+  text-align: right;
+  font-family: "IosevkaCharon-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 88px;
+  height: 39px;
+}
+.about {
+  color: var(--grays-white, #ffffff);
+  text-align: center;
+  font-family: "IosevkaCharon-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1105px;
+  top: 70px;
+  width: 63px;
+  height: 17px;
+}
+.contact {
+  color: var(--m3-white, #ffffff);
+  text-align: center;
+  font-family: "IosevkaCharon-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1112px;
+  top: 70px;
+  width: 318px;
+}
+.budt-748-industry-practicum {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 195px;
+  width: 945px;
+  height: 100px;
+}
+.budt-748-is-an-industry-sponsored-capstone-course-where-msis-students-synthesize-their-program-knowledge-to-solve-real-world-business-problems-through-information-technology-working-directly-with-sponsoring-firms-students-build-solutions-that-deliver-measurable-business-value-while-sharpening-their-ability-to-navigate-tech-organizations-collaborate-with-key-stakeholders-and-present-technical-solutions-to-business-executives {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 295px;
+  width: 1334px;
+  height: 72px;
+}
+.semester-details-fall-2026 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 527px;
+  width: 375px;
+  height: 30px;
+}
+.professor-paul-t-shapiro {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 2px;
+  top: 581px;
+  width: 339px;
+  height: 37px;
+}
+.teaching-assistant-archie-tiwari {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 5px;
+  top: 642px;
+  width: 412px;
+  height: 23px;
+}
